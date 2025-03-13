@@ -1,0 +1,81 @@
+
+:root {
+  background-color: var(--root-bg-color);
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: white;	
+}
+
+#ClockDiv {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+#logo {
+  left: 2rem;
+  top: 2rem;
+  position: fixed;
+color:white;
+}
+
+#divSelectTeam {
+  border: white 2px solid;
+  border-radius: 5%;
+  position: absolute;
+  left: 2rem;
+  top: 4rem;
+  padding: 1rem;
+}
+
+#SelectTeamTable {
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+
+#menu {
+  right: 2rem;
+  top: 2rem;
+  position: fixed;
+  border: white 3px solid;
+  border-radius: 50%;
+  height:6rem;
+  padding: 2rem;
+}
+
+.link {
+  cursor: pointer;
+}
+
+.link:hover {
+  opacity: 0.67;
+}
+
+.td {
+  text-align: center;
+}
+
+.clock {
+  font-size: 3rem;
+  padding: 0.25rem;
+  color: white;
+}
+
+/* heading */
+
+.SmallText {
+  font-size: 1.7rem;
+  text-align: center;
+  color: white;
+  line-height: 1.5;
+  flex-basis: 100%;
+  order: 1;
+}
+
+.white {
+	color: white;
+}
